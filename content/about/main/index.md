@@ -1,15 +1,14 @@
 ---
 ## Configure page content in wide column
-title: "Lately" # leave blank to exclude
+title: "Lately..." # leave blank to exclude
 number_featured: 1 # pulling from mainSections in config.toml
 use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
-  I am working on a research project looking at how open source mathematics textbooks provide opportunities for students to engage in various forms of reasoning. 
+  I am working on two research projects. One is looking at how open-source statistics textbooks provide opportunities for undergraduate students to engage in various forms of reasoning while the other is examining forms of interactions between problem posing and problem solving in the context of basic financial mathematics.
   
-  I am also taking baby steps at learning photography. I am at around 25%. Ithaca is very beautiful and I want to document and share the beauty using the best pictures that I can capture.
-  
+  I am also taking baby steps at learning photography. I am at around 25%. Central and Upstate New York are very beautiful and I want to document and share that beauty using the best pictures that I can capture. Occasionally, I get opportunities to travel out of New York and I like to take a picture or two for memories.
   
 show_outro: true
 outro: |
