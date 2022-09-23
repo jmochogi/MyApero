@@ -71,26 +71,23 @@ Now you should be all set to show/hide your social icons. Each of these will pul
 
 ## Mutate
 
-The mutate function alters an existing variable in some way and creates a new column with the new variable. To use the mutate function, you will need to follow steps:
+The mutate function alters an existing variable in some way and creates a new column(variable) with a name that you designate. To use the mutate function, you will need to follow steps:
 
 ``` toml
   1. Know the dataframe name. Let us assume the dataframe is named x.
-  2. Identify the variable that you want to modify and its exact spelling.
-  3. Know what modification you want to make. For example, suppose we want to 
-     divide the age variable by the mean of age and call the new variable 
+  2. Identify the variable that you want to modify and its exact spelling. Suppose the variable is age.
+  3. Know what modification you want to make. For example, suppose you want to      divide the age variable by the mean of age and call the new variable 
      age_mean.
   4. If you are working in Rmarkdown environment, open a new code chunk and 
-     write the the code (without the hash tag):
+     write the the code below (without the hash tag, of course):
   
-   # y <- x %>% mutate (age_mean = mean/mean(age))
+   # y <- x %>% mutate (age_mean = age/mean(age))
    
-  5. Run the code and look out for a new object "y" in the environment area. You 
-  have just created a new dataframe with a new variable called age_mean.
+  5. Run the code and look out for a new object "y" in the environment area. You have just created a new dataframe with a new variable called age_mean.
   
   Note: 
     
-    a. If you want to delete the original varible from the dataframe you may use 
-       the function "transmute" instead of "mutate".
+    a. If you want to delete the original varible from the dataframe you may use the function "transmute" instead of "mutate".
     
     b. Note that the function mean(age) computes the mean of teh age variable. 
        If we know the mean to be 48.4, we can use that number directly. 
@@ -129,11 +126,9 @@ Just like we can select certain variables (columns) from a dataframe, it is poss
       
 ```
 
-
 ## Group_by
 
-**Group_by** is a kind of filtering function that is commonly used in data wrangling.
-It often takes a dataframe and thinks of it in terms of groups as you define them. Let us say for example, that you have a variable gender (male, female, other) in your dataframe x above. ***Group_by*** can be used alongside other functions as shown:
+**Group_by** is a kind of filtering function that is commonly used in data wrangling. It often takes a dataframe and thinks of it in terms of groups as you define them. Let us say for example, that you have a variable gender (male, female, other) in your dataframe x above. ***Group_by*** can be used alongside other functions as shown:
 
 ``` toml
   1. Suppose we want to find the mean by gender (i.e., the mean age for female, 
@@ -163,8 +158,6 @@ It often takes a dataframe and thinks of it in terms of groups as you define the
        This will add a new column to your dataframe with the means for each case.
 ```
 
-
-
 <!--
 Open up `content/_index.md`. That file's YAML controls what you see on the homepage. Set `show_social_links` like so:
 
@@ -191,4 +184,4 @@ You may use the YAML for your contact page (located in `content/form/contact.md`
 show_social_links: true # specify social accounts in site config
 ---
 ```
---> 
+-->
