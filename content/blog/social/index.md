@@ -99,7 +99,7 @@ The mutate function alters an existing variable in some way and creates a new co
 Just like we can select certain variables (columns) from a dataframe, it is possible to select a certain rows (cases/observations) in a dataframe. The function that does this is called **filter**. We use the filter function as follows:
 
 ``` toml
-  1. Know the dataframe name. Let us assume the dataframe is named x.
+1. Know the dataframe name. Let us assume the dataframe is named x.
   2. Know the criteria you want to use for filtering. For example, suppose you 
      have the variables "hair color" and "age" and you want cases for which hair
      color and age is greater than 55. Notice that "hair color" is categorical 
@@ -108,10 +108,9 @@ Just like we can select certain variables (columns) from a dataframe, it is poss
   3. If you want to rename the new dataframe, choose an appropriate name, say, y.
   4. If you are working in Rmarkdown environment, open a new code chunk and 
      write the the code (without the hash tag):
-  
-   # y <- x %>% filter (hair color == "black", age > 55)
-   
-  5. Run the code and look out for a new object "y" in the environment area. You 
+  ``  # y <- x %>% filter (hair color == "black", age > 55)
+     
+     5. Run the code and look out for a new object "y" in the environment area. You 
   have just created a smaller dataset with cases that meet the defined criteria.
   
   Note: 
@@ -124,8 +123,7 @@ Just like we can select certain variables (columns) from a dataframe, it is poss
       c. If you want to have have an "OR" condition (e.g., cases that have black 
         hair) or are older than 55, you will use "|" instead of a comma.
       
-```
-
+````
 ## Group_by
 
 **Group_by** is a kind of filtering function that is commonly used in data wrangling. It often takes a dataframe and thinks of it in terms of groups as you define them. Let us say for example, that you have a variable gender (male, female, other) in your dataframe x above. ***Group_by*** can be used alongside other functions as shown:
