@@ -123,7 +123,8 @@ Just like we can select certain variables (columns) from a dataframe, it is poss
       c. If you want to have have an "OR" condition (e.g., cases that have black 
         hair) or are older than 55, you will use "|" instead of a comma.
       
-````
+```
+
 ## Group_by
 
 **Group_by** is a kind of filtering function that is commonly used in data wrangling. It often takes a dataframe and thinks of it in terms of groups as you define them. Let us say for example, that you have a variable gender (male, female, other) in your dataframe x above. ***Group_by*** can be used alongside other functions as shown:

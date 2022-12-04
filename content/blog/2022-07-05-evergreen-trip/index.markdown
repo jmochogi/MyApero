@@ -18,6 +18,6 @@ While touring such a beautiful place individually can be great, being in a compa
 
 There are very many things to do at the park and a single afternoon cannot be enough to do even half of them. You can camp, kayak, sand bathe, swim, golf, etc. Greenlakes has a lake with two layers of water that do not mix. Such a lake is called a meromictic lake and such lakes are extremely rare - by the time of this writing, we have only 36 meromictic lakes in the world. Here is a video:
 
-<iframe width="730" height="450" src="https://www.youtube.com/embed/tqL-euU4fyA" title="Invisible kayaks at Green Lakes? See what they look like" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="730" height="450" src="https://www.youtube.com/embed/tqL-euU4fyA" title="Invisible kayaks at Green Lakes? See what they look like" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 
-
+</iframe>

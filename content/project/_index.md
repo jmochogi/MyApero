@@ -22,7 +22,7 @@ sidebar:
   text_link_label: ""
   text_link_url: ""
   title: A Sidebar for Your Projects
-title: A Project Portfolio To Grow
+title: A list of courses that I have taught at various institutions
 ---
 
 ** No content for the project index. This file provides front matter for the blog including the layout and boolean options. **

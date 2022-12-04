@@ -127,20 +127,15 @@ enableEmoji = true
     url = "/about/"
     weight = 1
   [[menu.header]]
-    name = "Blog"
-    title = "Blog"
-    url = "/blog/"
+    name = "Courses Taught"
+    title = "Courses Taught"
+    url = "/project/"
     weight = 2
   [[menu.header]]
-    name = "Projects"
-    title = "Project Portfolio"
-    url = "/project/"
-    weight = 3
-  [[menu.header]]
-    name = "Talks"
-    title = "Talks"
+    name = "Research"
+    title = "Research"
     url = "/talk/"
-    weight = 4
+    weight = 3
   [[menu.header]]
     name = "A collection"
     title = "A collection"
@@ -151,6 +146,13 @@ enableEmoji = true
     title = "Element Page"
     url = "/elements/"
     weight = 6
+    
+    [[menu.header]]
+    name = "Blog"
+    title = "Blog"
+    url = "/blog/"
+    weight = 4
+  
     
   # Configure footer  
   [[menu.footer]]

@@ -12,13 +12,11 @@ categories:
 layout: single
 ---
 
-
 ## Air quality
 
 ```{r}
 with(airquality, boxplot(Temp ~ Month))
 ```
-
 
 ```{r}
 with(airquality, plot(Ozone ~ Temp))
@@ -30,4 +28,3 @@ with(airquality, plot(Ozone ~ Temp,
                       pch = as.numeric(mlev), 
                       col = mlev))
 ```
-

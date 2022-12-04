@@ -1,5 +1,5 @@
 ---
-author: Eric Anderson
+author: Joash Geteregechi
 categories:
 - Theme Features
 - R
@@ -14,7 +14,7 @@ subtitle: A tachyon /ˈtæki.ɒn/ or tachyonic particle is a hypothetical partic
   always moves faster than light.
 tags:
 - hugo-site
-title: Tachyons for Style
+title: MATH 145- Statistics For Health and Social Science
 ---
 
 ![Tachyons Logo Script](tachyons-logo-script.png)
